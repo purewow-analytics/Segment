@@ -10,8 +10,8 @@ Article Shared: Event fires when one of the "share" buttons is clicked.
 	current_url: URL the user is currently on
 	action_type: Args will be Facebook, Pinterest, Text, Email, Print
 	position: Article index (if in a slideshow, for example)
-	location: Essentially 'data-gae-label'
-	element: Essentially 'data-gae-event-category'
+	location: 'surround_article' or 'incontent', for example
+	element: 'pin_side' or 'facebook_stickynav', for example
 
 Article Completed: Event fires when a user reaches the end of an article.
 	current_url: URL the user is currently on
@@ -24,29 +24,29 @@ Slideshow Engaged: Event fires when a user clicks on any of the slideshow specif
 
 Navbar Clicked: Event fires when a user clicks on one of the navbar elements.
 	current_url: URL the user is currently on
-	element: Essentially 'data-gae-action'
-	subelement: Essentially 'data-gae-label' in the 'nav__drawer__ul__item'
+	element: 'food&recipes' or 'fashion&beauty', for example
+	subelement: 'Home_01' or 'Travel_02', for example
 	device: Args are Desktop/Mobile + OS
 
 Footer Clicked: Event fires when a user clicks on any of the footer specific elements on the site.
 	current_url: URL the user is currently on
 	item_clicked: The URL of the article a user clicks (if applicable)
-	element: Essentially 'data-gae-label'
+	element: 'privacy' or 'contests', for example
 	device: Args are Desktop/Mobile + OS
 
 EOP Clicked: Event fires when a user clicks on one of the EOP elements on the site.
 	current_url: URL the user is currently on
 	destination_url: URL the user is directed to
-	element: Essentially 'data-gae-label'
+	element: 'zergnet_03_ARGS' or 'purewow_04_ARGS', for example
 	position: Article index (if in a slideshow, for example)
 	referral: Args will be Internal, Zergnet, PubExchange (etc.)
-	module_type: Essentially 'data-gae-category'
+	module_type: 'desktop_partner_category' or 'eop_slider', for example
 	article_title: Article a user clicks to (ex. 'h4 class="slider__hed"')
 
 Right Rail Clicked:
 	current_url: URL the user is currently on
 	destination_url: URL the user is directed to
-	element: Essentially 'data-gae-label'
+	element: 'zergnet_02', for example
 	article_title: Article a user clicks to (in the hyperlink, as of 4/11/2017)
 
 Newsletter Subscribed:
@@ -67,7 +67,7 @@ Quiz Taken:
 	questions_answered: Furthest question answered on the quiz
 	result_viewed: Boolean result viewed yes/no
 	quiz_retaken: Boolean quiz retaken or not
-	quiz_shared: Where the quiz was shared to ('data-gae-label')
+	quiz_shared: Where the quiz was shared to ('pin_quizresults_ARGS', for example)
 
 Recipe Box Engaged:
 	current_url: URL the user is currently on
@@ -80,7 +80,7 @@ Recipe Box Engaged:
 Shop Module Engaged:
 	current_url: URL the user is currently on
 	module_position: Where the module itself appears
-	item_clicked: Essentially 'data-gae-label'
+	item_clicked: '1_shopmodule_Topshop' or 'picture_01_floral_trench_coat.jpg', for example
 	buynow: Buy Now URL if button is clicked
 	module_exit: Index exited at, if index is present
 
@@ -96,4 +96,3 @@ Video Completed:
 	soundon: Boolean if sound is on or not
 	video_title: Article title of the video
 
-	
