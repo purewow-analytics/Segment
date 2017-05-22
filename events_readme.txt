@@ -89,15 +89,31 @@ Shop Module Engaged:
 	buynow: Buy Now URL if button is clicked
 	module_exit: Index exited at, if index is present
 
-Video Played:
-	current_url: URL the user is currently on
-	video_file: TODO Filename or link of video
-	soundon: Boolean if sound is on or not
-	video_title: Article title of the video
+Video Playback Started:
+	session_id: UID for overall session
+	content_asset_id: Article ID of the video
+	sound: sound (from 0-100)
+	full_screen: boolean is fullscreen or not
+	position: number representing current index position in seconds of the playhead
+	total_length: total length of playback (including ads)
 
-Video Completed:
-	current_url: URL the user is currently on
-	video_file: TODO Filename or link of video
-	soundon: Boolean if sound is on or not
-	video_title: Article title of the video
+Video Playback Completed:
+	session_id: UID for overall session
+	content_asset_id: Article ID of the video
+	sound: sound (from 0-100)
+	full_screen: boolean is fullscreen or not
+
+Video Content Started:
+	session_id: UID for overall session
+	asset_id: Article ID of the video
+	title: Title of the video
+	description: Description of video
+	genre: Vertical of video
+
+Video Content Completed:
+	session_id: UID for overall session
+	asset_id: Article ID of the video
+	title: Title of the video
+	description: Description of video
+	genre: Vertical of video
 
