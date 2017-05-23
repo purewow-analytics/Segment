@@ -1,4 +1,5 @@
 #Everything after the properties is copypasta from the Segment page spec
+#The values in the properties are meant to be dynamically added
 
 "name": AKA the navbar vertical
   "properties": {
