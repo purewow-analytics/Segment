@@ -73,7 +73,7 @@ Quiz Taken:
 	result_viewed: Boolean result viewed yes/no
 	quiz_retaken: Boolean quiz retaken or not
 	quiz_shared: Where the quiz was shared to ('pin_quizresults_ARGS', for example)
-	back_button_clicked: If the back button was clicked
+	back_button_clicked: If the back button on the quiz (not in the browser) was clicked
 
 Recipe Box Engaged:
 	current_url: URL the user is currently on
