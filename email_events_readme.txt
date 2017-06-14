@@ -2,6 +2,7 @@ Email Opened: Event fires when a user opens an email (we already have this; ever
 	user_id: User/subscriber ID from our backend
 	campaign_id: Campaign ID from our backend
 	subject: Subject line of email
+	template: Template of email
 
 Link Clicked: Event fires when a user clicks on a link within the email
 	url: URL the user is directed to
