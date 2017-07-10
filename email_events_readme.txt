@@ -29,4 +29,10 @@ EOP Clicked:
 
 Unsubscribed: Event fires when a user clicks on the unsubscribe button
 	unsubscribed: Was unsubscribed clicked?
+	
+Email Sent:
+	user_id: User/subscriber ID from our backend
+	campaign_id: Campaign ID from our backend
+	subject: Subject line of email
+	template: Template of email
 
