@@ -70,10 +70,20 @@ Newsletter Unsubscribed:
 Quiz Taken:
 	current_url: URL the user is currently on
 	questions_answered: Furthest question answered on the quiz
-	result_viewed: Boolean result viewed yes/no
+	result_viewed: Actual output of the result, if viewed
 	quiz_retaken: Boolean quiz retaken or not
 	quiz_shared: Where the quiz was shared to ('pin_quizresults_ARGS', for example)
 	back_button_clicked: If the back button on the quiz (not in the browser) was clicked
+	answers_given: Specific answers chosen on the quiz, returned as a demlimited string in one "cell"
+	
+Pinterest Quiz Taken:
+	current_url: URL the user is currently on
+	questions_answered: Furthest question answered on the quiz
+	pin_viewed: If the user went to Pinterest to see their pin; Bool
+	quiz_retaken: Boolean quiz retaken or not
+	quiz_shared: Where the quiz was shared to ('pin_quizresults_ARGS', for example)
+	back_button_clicked: If the back button on the quiz (not in the browser) was clicked
+	answers_given: Specific answers chosen on the quiz, returned as a demlimited string in one "cell"
 
 Recipe Box Engaged:
 	current_url: URL the user is currently on
