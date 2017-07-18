@@ -54,19 +54,6 @@ Right Rail Clicked:
 	element: 'zergnet_02', for example
 	article_title: Article a user clicks to (in the hyperlink, as of 4/11/2017)
 
-(Edition) Newsletter Subscribed:
-	current_url: URL the user is currently on
-	user: Subscriber ID
-	—-edition: Edition subscribed to
-	source: How we acquired the email (Args BounceX or Internal)
-	module: What module BounceX used or they subscribed internally from
-
-Newsletter Unsubscribed:
-	current_url: URL the user is currently on
-	user: Subscriber ID
-	edition: Edition subscribed to
-	location: Where they unsubscribed from
-
 Quiz Taken:
 	current_url: URL the user is currently on
 	questions_answered: Furthest question answered on the quiz

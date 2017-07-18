@@ -36,3 +36,15 @@ Email Sent:
 	subject: Subject line of email
 	template: Template of email
 
+(Edition) Newsletter Subscribed:
+	current_url: URL the user is currently on
+	user: Subscriber ID
+	—-edition: Edition subscribed to
+	source: How we acquired the email (Args BounceX or Internal)
+	module: What module BounceX used or they subscribed internally from
+
+Newsletter Unsubscribed:
+	current_url: URL the user is currently on
+	user: Subscriber ID
+	edition: Edition subscribed to
+	location: Where they unsubscribed from
