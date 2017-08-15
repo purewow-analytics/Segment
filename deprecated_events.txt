@@ -1,0 +1,5 @@
+(Deprecated)Navbar Clicked: Event fires when a user clicks on one of the navbar elements.
+	current_url: URL the user is currently on
+	element: 'food&recipes' or 'fashion&beauty', for example
+	subelement: 'Home_01' or 'Travel_02', for example (can be null)
+	device: Args are Desktop/Mobile + OS
