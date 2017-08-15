@@ -29,8 +29,9 @@ Slideshow Engaged: Event fires when a user clicks on any of the slideshow specif
 
 Navbar Clicked: Event fires when a user clicks on one of the navbar elements.
 	current_url: URL the user is currently on
-	element: 'food&recipes' or 'fashion&beauty', for example
-	subelement: 'Home_01' or 'Travel_02', for example (can be null)
+	location: Explicitly either the "top" nav or the "side" nav
+	element: fashion/beauty/recipes/home/family/how-tos OR lifestyle/trending/videos/cities
+	subelement: null if location == top; child to element if location == side
 	device: Args are Desktop/Mobile + OS
 
 Footer Clicked: Event fires when a user clicks on any of the footer specific elements on the site.
