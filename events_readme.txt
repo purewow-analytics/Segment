@@ -18,6 +18,15 @@ Article Clicked: Event fires whenever someone clicks into an article, and they'r
 	location: 'surround_article' or 'incontent', for example
 	element: 'side' or 'stickynav', for example
 
+Follow: Event first when a user clicks on one of the “Follow” buttons
+	current_url: URL the user is currently on
+	action_type: Args will be Facebook, Insta, Pinterest, Snapchat, Twitter, YouTube
+	location: Header, footer, or sidenav (pending class names)
+
+Search Engaged:
+	current_url: URL the user is currently on
+	search_text: Text that a user searched for
+
 Article Completed: Event fires when a user reaches the end of an article.
 	current_url: URL the user is currently on
 
