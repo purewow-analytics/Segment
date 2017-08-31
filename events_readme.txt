@@ -23,10 +23,6 @@ Follow: Event first when a user clicks on one of the “Follow” buttons
 	action_type: Args will be Facebook, Insta, Pinterest, Snapchat, Twitter, YouTube
 	location: Header, footer, or sidenav (pending class names)
 
-Search Engaged:
-	current_url: URL the user is currently on
-	search_text: Text that a user searched for
-
 Article Completed: Event fires when a user reaches the end of an article.
 	current_url: URL the user is currently on
 
