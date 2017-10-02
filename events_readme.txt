@@ -121,3 +121,12 @@ Video Content Completed:
 	description: Description of video
 	genre: Vertical of video
 
+Affiliate Clicked: Event fires whenever someone clicks an affiliate link (defined in CMS or by programmatic URL change)
+	current_url: URL the user is currently on
+	destination_url: Affiliate URL the user is directed to
+	element: Essentially 'class' (ex. "vertical-image" or "vertical-title")
+	image_id: Either the source or backend ID for the image, if applicable
+	position: Article index (if in a slideshow, for example)
+	article_title: The actual (in the CMS) title of the article
+	vendor: Vendor as defined in CMS
+
