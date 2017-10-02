@@ -128,5 +128,7 @@ Affiliate Clicked: Event fires whenever someone clicks an affiliate link (define
 	image_id: Either the source or backend ID for the image, if applicable
 	position: Article index (if in a slideshow, for example)
 	article_title: The actual (in the CMS) title of the article
-	vendor: Vendor as defined in CMS
+	title: Title as defined in CMS
+	merchant: Merchant as defined in the CMS
+	item: Item as defined in the CMS
 
