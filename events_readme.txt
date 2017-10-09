@@ -131,4 +131,7 @@ Affiliate Clicked: Event fires whenever someone clicks an affiliate link (define
 	title: Title as defined in CMS
 	merchant: Merchant as defined in the CMS
 	item: Item as defined in the CMS
+	vendor: The partner vendor that is associated with the product (Skimlinks, BamX, Etc.)
+	input_method: The way this link was ID'd as an affiliate link (CMS or programmatic)
+	
 
